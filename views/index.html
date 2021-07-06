@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>API Project: URL Shortener Microservice</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="/style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h2>API Project: URL Shortener Microservice</h2>
+			<div class="description">
+				This api provides a simple url shortener.
+
+				<h3>User Stories</h3>
+				<ol>
+					<li>
+						Posting a URL to
+						<code>[project_url]/api/shorturl/new</code> will return
+						a shortened URL in the JSON response.<br />
+						Example :
+						<code
+							>{"original_url":"www.google.com","short_url":1}</code
+						>
+					</li>
+					<li>
+						Posting an invalid URL that does not follow the
+						http(s)://www.example.com(/more/routes) format, will
+						return a JSON response like
+						<code>{"error":"invalid URL"}</code>
+					</li>
+					<li>
+						Visiting the shortened URL, will redirect to the
+						original link.
+					</li>
+				</ol>
+
+				<h3>URL Shortener</h3>
+				
+
+				<form action="/api/shorturl" method="post">
+					
+          <input
+                 type="url"
+                 name="url"
+                 class="input"
+                 value="https://www.freecodecamp.org"
+          />
+					<input type="submit" class="button" value="Go" />
+				</form>
+
+				
+      </div>
+			<p id="author">by James Ragain / WiseGuise</p>
+		</div>
+	</body>
+</html>
