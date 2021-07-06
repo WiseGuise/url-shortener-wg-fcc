@@ -1,0 +1,46 @@
+body {
+	background: red;
+	text-align: left;
+	font-family: arial;
+}
+
+.container {
+	width: 550px;
+	margin: 100px auto;
+	padding: 20px 55px;
+	background: lightblue;
+	border: 3px solid #9c6262;
+	border-radius: 10px;
+	box-shadow: 5px 10px 15px #333;
+}
+
+.description {
+	text-align: left;
+}
+
+code {
+	background: lightgray;
+	padding: 2px;
+}
+
+form {
+	margin: 15px auto;
+	padding: 20px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	text-align: left;
+}
+
+input {
+	padding: 7px;
+	border-radius: 5px;
+}
+
+.input {
+	width: 449px;
+}
+
+#author {
+	color: black;
+	font-size: 12px;
+}
