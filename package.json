@@ -1,0 +1,21 @@
+{
+  "name": "URL Shortener Microservice - WG - FCC Project",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "freeCodeCamp.org API's and Microservices Certification Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "cors": "^2.8.5",
+    "express": "4.17.1",
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
